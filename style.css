@@ -180,3 +180,34 @@ body{
   #initial-value{
     font-size: 100px;
   }
+
+  .calc-app{
+    background-color: rgb(245, 129, 20);
+    margin: auto;
+    height: auto;
+    width: auto;
+    display: block;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 40px;
+    text-align: center;
+    
+    line-height: 20px;
+    
+  }
+  .plus, .minus{
+    border-width: none;
+    border-color: blue;
+    border-radius: 10px;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .plus:hover, .minus:hover{
+    background-color: rgba(165, 140, 140, 0.089);
+  }
+  #cal-val{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
